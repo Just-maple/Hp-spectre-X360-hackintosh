@@ -1,0 +1,204 @@
+21:832  0:029  Found BIOS RSDP at F0070
+21:832  0:000  Printing ACPI tables from RSDP F0070 ...
+21:832  0:000   F0070: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:832  0:000    (Xsdt: 2F3BA0C0, Rsdt: 2F3BA028)
+21:832  0:000    2F3BA0C0: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 252
+21:832  0:000    2F3BA028: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 144
+21:832  0:000    Tables in Xsdt: 27
+21:832  0:000    0. 2F3F4B30: 'FACP', 'SLIC-MPC', Rev: 6, Len: 276
+21:832  0:000        (Dsdt: 2F3BA248, Facs: 2F7EAF00, XDsdt: 2F3BA248, XFacs: 0)
+21:832  0:000        2F3BA248: 'DSDT', '83B9', Rev: 2, Len: 239841
+21:832  0:000        2F7EAF00: 'FACS', Ver: 2, Len: 64
+21:832  0:000    1. 2F3F4C48: 'APIC', '83B9', Rev: 3, Len: 188
+21:832  0:000    2. 2F3F4D08: 'FPDT', '83B9', Rev: 1, Len: 68
+21:832  0:000    3. 2F3F4D50: 'FIDT', '83B9', Rev: 1, Len: 156
+21:832  0:000    4. 2F3F4DF0: 'MCFG', '83B9', Rev: 1, Len: 60
+21:832  0:000    5. 2F3F4E30: 'SSDT', '83B9', Rev: 1, Len: 931
+21:832  0:000    6. 2F3F51D8: 'SSDT', '83B9', Rev: 2, Len: 23959
+21:832  0:000    7. 2F3FAF70: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+21:832  0:000    8. 2F3FAFC8: 'SSDT', '83B9', Rev: 2, Len: 12630
+21:832  0:000    9. 2F3FE120: 'HPET', '83B9', Rev: 1, Len: 56
+21:832  0:000    10. 2F3FE158: 'SSDT', '83B9', Rev: 2, Len: 36
+21:832  0:000    11. 2F3FE180: 'UEFI', '83B9', Rev: 1, Len: 66
+21:832  0:000    12. 2F3FE1C8: 'SSDT', '83B9', Rev: 2, Len: 6062
+21:832  0:000    13. 2F3FF978: 'LPIT', '83B9', Rev: 1, Len: 148
+21:832  0:000    14. 2F3FFA10: 'SSDT', '83B9', Rev: 2, Len: 321
+21:832  0:000    15. 2F3FFB58: 'SSDT', '83B9', Rev: 2, Len: 671
+21:832  0:000    16. 2F3FFDF8: 'SSDT', '83B9', Rev: 2, Len: 4583
+21:832  0:000    17. 2F400FE0: 'SSDT', '83B9', Rev: 2, Len: 573
+21:832  0:000    18. 2F401220: 'DBGP', '83B9', Rev: 1, Len: 52
+21:832  0:000    19. 2F401258: 'DBG2', '83B9', Rev: 0, Len: 84
+21:832  0:000    20. 2F4012B0: 'DMAR', '83B9', Rev: 1, Len: 276
+21:832  0:000    21. 2F4013C8: 'NHLT', '83B9', Rev: 0, Len: 45
+21:832  0:000    22. 2F4013F8: 'SSDT', '83B9', Rev: 1, Len: 102
+21:832  0:000    23. 2F401460: 'TPM2', '83B9', Rev: 3, Len: 52
+21:832  0:000    24. 2F401498: 'ASF!', '83B9', Rev: 32, Len: 160
+21:832  0:000    25. 2F401538: 'WSMT', '83B9', Rev: 1, Len: 40
+21:832  0:000    26. 2F401560: 'BGRT', '83B9', Rev: 1, Len: 56
+21:832  0:000    Tables in Rsdt: 27
+21:832  0:000    0. 2F3BA1C0: 'FACP', 'SLIC-MPC', Rev: 2, Len: 132
+21:832  0:000        (Dsdt: 2F3BA248, Facs: 2F7EAEC0)
+21:832  0:000        2F3BA248: 'DSDT', '83B9', Rev: 2, Len: 239841
+21:832  0:000        2F7EAEC0: 'FACS', Ver: 0, Len: 64
+21:832  0:000    1. 2F3F4C48: 'APIC', '83B9', Rev: 3, Len: 188
+21:832  0:000    2. 2F3F4D08: 'FPDT', '83B9', Rev: 1, Len: 68
+21:832  0:000    3. 2F3F4D50: 'FIDT', '83B9', Rev: 1, Len: 156
+21:832  0:000    4. 2F3F4DF0: 'MCFG', '83B9', Rev: 1, Len: 60
+21:832  0:000    5. 2F3F4E30: 'SSDT', '83B9', Rev: 1, Len: 931
+21:832  0:000    6. 2F3F51D8: 'SSDT', '83B9', Rev: 2, Len: 23959
+21:832  0:000    7. 2F3FAF70: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+21:832  0:000    8. 2F3FAFC8: 'SSDT', '83B9', Rev: 2, Len: 12630
+21:832  0:000    9. 2F3FE120: 'HPET', '83B9', Rev: 1, Len: 56
+21:832  0:000    10. 2F3FE158: 'SSDT', '83B9', Rev: 2, Len: 36
+21:832  0:000    11. 2F3FE180: 'UEFI', '83B9', Rev: 1, Len: 66
+21:832  0:000    12. 2F3FE1C8: 'SSDT', '83B9', Rev: 2, Len: 6062
+21:832  0:000    13. 2F3FF978: 'LPIT', '83B9', Rev: 1, Len: 148
+21:832  0:000    14. 2F3FFA10: 'SSDT', '83B9', Rev: 2, Len: 321
+21:832  0:000    15. 2F3FFB58: 'SSDT', '83B9', Rev: 2, Len: 671
+21:832  0:000    16. 2F3FFDF8: 'SSDT', '83B9', Rev: 2, Len: 4583
+21:832  0:000    17. 2F400FE0: 'SSDT', '83B9', Rev: 2, Len: 573
+21:832  0:000    18. 2F401220: 'DBGP', '83B9', Rev: 1, Len: 52
+21:832  0:000    19. 2F401258: 'DBG2', '83B9', Rev: 0, Len: 84
+21:832  0:000    20. 2F4012B0: 'DMAR', '83B9', Rev: 1, Len: 276
+21:832  0:000    21. 2F4013C8: 'NHLT', '83B9', Rev: 0, Len: 45
+21:832  0:000    22. 2F4013F8: 'SSDT', '83B9', Rev: 1, Len: 102
+21:832  0:000    23. 2F401460: 'TPM2', '83B9', Rev: 3, Len: 52
+21:832  0:000    24. 2F401498: 'ASF!', '83B9', Rev: 32, Len: 160
+21:832  0:000    25. 2F401538: 'WSMT', '83B9', Rev: 1, Len: 40
+21:832  0:000    26. 2F401560: 'BGRT', '83B9', Rev: 1, Len: 56
+21:832  0:000  Found UEFI Acpi 2.0 RSDP at 2F3BA000
+21:832  0:000  Saving ACPI tables from RSDP 2F3BA000 to EFI\CLOVER\ACPI\origin ...
+21:832  0:000   2F3BA000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:832  0:000    (Xsdt: 2F3BA0C0, Rsdt: 2F3BA028)
+21:832  0:000    2F3BA0C0: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 252
+21:832  0:000    2F3BA028: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 144
+21:832  0:000    Tables in Xsdt: 27
+21:832  0:000    0. 2F3F4B30: 'FACP', 'SLIC-MPC', Rev: 6, Len: 276
+21:832  0:000        (Dsdt: 2F3BA248, Facs: 2F7EAF00, XDsdt: 2F3BA248, XFacs: 0)
+21:832  0:000        2F3BA248: 'DSDT', '83B9', Rev: 2, Len: 239841
+21:832  0:000        2F7EAF00: 'FACS', Ver: 2, Len: 64
+21:832  0:000    1. 2F3F4C48: 'APIC', '83B9', Rev: 3, Len: 188
+21:832  0:000    2. 2F3F4D08: 'FPDT', '83B9', Rev: 1, Len: 68
+21:832  0:000    3. 2F3F4D50: 'FIDT', '83B9', Rev: 1, Len: 156
+21:832  0:000    4. 2F3F4DF0: 'MCFG', '83B9', Rev: 1, Len: 60
+21:832  0:000    5. 2F3F4E30: 'SSDT', '83B9', Rev: 1, Len: 931
+21:832  0:000    6. 2F3F51D8: 'SSDT', '83B9', Rev: 2, Len: 23959
+21:832  0:000    7. 2F3FAF70: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+21:832  0:000    8. 2F3FAFC8: 'SSDT', '83B9', Rev: 2, Len: 12630
+21:832  0:000    9. 2F3FE120: 'HPET', '83B9', Rev: 1, Len: 56
+21:832  0:000    10. 2F3FE158: 'SSDT', '83B9', Rev: 2, Len: 36
+21:832  0:000    11. 2F3FE180: 'UEFI', '83B9', Rev: 1, Len: 66
+21:832  0:000    12. 2F3FE1C8: 'SSDT', '83B9', Rev: 2, Len: 6062
+21:832  0:000    13. 2F3FF978: 'LPIT', '83B9', Rev: 1, Len: 148
+21:832  0:000    14. 2F3FFA10: 'SSDT', '83B9', Rev: 2, Len: 321
+21:832  0:000    15. 2F3FFB58: 'SSDT', '83B9', Rev: 2, Len: 671
+21:832  0:000    16. 2F3FFDF8: 'SSDT', '83B9', Rev: 2, Len: 4583
+21:832  0:000    17. 2F400FE0: 'SSDT', '83B9', Rev: 2, Len: 573
+21:832  0:000    18. 2F401220: 'DBGP', '83B9', Rev: 1, Len: 52
+21:832  0:000    19. 2F401258: 'DBG2', '83B9', Rev: 0, Len: 84
+21:832  0:000    20. 2F4012B0: 'DMAR', '83B9', Rev: 1, Len: 276
+21:832  0:000    21. 2F4013C8: 'NHLT', '83B9', Rev: 0, Len: 45
+21:832  0:000    22. 2F4013F8: 'SSDT', '83B9', Rev: 1, Len: 102
+21:832  0:000    23. 2F401460: 'TPM2', '83B9', Rev: 3, Len: 52
+21:832  0:000    24. 2F401498: 'ASF!', '83B9', Rev: 32, Len: 160
+21:832  0:000    25. 2F401538: 'WSMT', '83B9', Rev: 1, Len: 40
+21:832  0:000    26. 2F401560: 'BGRT', '83B9', Rev: 1, Len: 56
+21:832  0:000    Tables in Rsdt: 27
+21:832  0:000    0. 2F3BA1C0: 'FACP', 'SLIC-MPC', Rev: 2, Len: 132
+21:832  0:000        (Dsdt: 2F3BA248, Facs: 2F7EAEC0)
+21:832  0:000        2F3BA248: 'DSDT', '83B9', Rev: 2, Len: 239841
+21:832  0:000        2F7EAEC0: 'FACS', Ver: 0, Len: 64
+21:832  0:000    1. 2F3F4C48: 'APIC', '83B9', Rev: 3, Len: 188
+21:832  0:000    2. 2F3F4D08: 'FPDT', '83B9', Rev: 1, Len: 68
+21:832  0:000    3. 2F3F4D50: 'FIDT', '83B9', Rev: 1, Len: 156
+21:832  0:000    4. 2F3F4DF0: 'MCFG', '83B9', Rev: 1, Len: 60
+21:832  0:000    5. 2F3F4E30: 'SSDT', '83B9', Rev: 1, Len: 931
+21:832  0:000    6. 2F3F51D8: 'SSDT', '83B9', Rev: 2, Len: 23959
+21:832  0:000    7. 2F3FAF70: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+21:832  0:000    8. 2F3FAFC8: 'SSDT', '83B9', Rev: 2, Len: 12630
+21:832  0:000    9. 2F3FE120: 'HPET', '83B9', Rev: 1, Len: 56
+21:832  0:000    10. 2F3FE158: 'SSDT', '83B9', Rev: 2, Len: 36
+21:832  0:000    11. 2F3FE180: 'UEFI', '83B9', Rev: 1, Len: 66
+21:832  0:000    12. 2F3FE1C8: 'SSDT', '83B9', Rev: 2, Len: 6062
+21:832  0:000    13. 2F3FF978: 'LPIT', '83B9', Rev: 1, Len: 148
+21:832  0:000    14. 2F3FFA10: 'SSDT', '83B9', Rev: 2, Len: 321
+21:832  0:000    15. 2F3FFB58: 'SSDT', '83B9', Rev: 2, Len: 671
+21:832  0:000    16. 2F3FFDF8: 'SSDT', '83B9', Rev: 2, Len: 4583
+21:832  0:000    17. 2F400FE0: 'SSDT', '83B9', Rev: 2, Len: 573
+21:832  0:000    18. 2F401220: 'DBGP', '83B9', Rev: 1, Len: 52
+21:832  0:000    19. 2F401258: 'DBG2', '83B9', Rev: 0, Len: 84
+21:832  0:000    20. 2F4012B0: 'DMAR', '83B9', Rev: 1, Len: 276
+21:832  0:000    21. 2F4013C8: 'NHLT', '83B9', Rev: 0, Len: 45
+21:832  0:000    22. 2F4013F8: 'SSDT', '83B9', Rev: 1, Len: 102
+21:832  0:000    23. 2F401460: 'TPM2', '83B9', Rev: 3, Len: 52
+21:832  0:000    24. 2F401498: 'ASF!', '83B9', Rev: 32, Len: 160
+21:832  0:000    25. 2F401538: 'WSMT', '83B9', Rev: 1, Len: 40
+21:832  0:000    26. 2F401560: 'BGRT', '83B9', Rev: 1, Len: 56
+21:832  0:000  Found UEFI Acpi 1.0 RSDP at 2F3BA000
+21:832  0:000  Printing ACPI tables from RSDP 2F3BA000 ...
+21:832  0:000   2F3BA000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:832  0:000    (Xsdt: 2F3BA0C0, Rsdt: 2F3BA028)
+21:832  0:000    2F3BA0C0: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 252
+21:832  0:000    2F3BA028: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 144
+21:832  0:000    Tables in Xsdt: 27
+21:832  0:000    0. 2F3F4B30: 'FACP', 'SLIC-MPC', Rev: 6, Len: 276
+21:832  0:000        (Dsdt: 2F3BA248, Facs: 2F7EAF00, XDsdt: 2F3BA248, XFacs: 0)
+21:832  0:000        2F3BA248: 'DSDT', '83B9', Rev: 2, Len: 239841
+21:832  0:000        2F7EAF00: 'FACS', Ver: 2, Len: 64
+21:832  0:000    1. 2F3F4C48: 'APIC', '83B9', Rev: 3, Len: 188
+21:832  0:000    2. 2F3F4D08: 'FPDT', '83B9', Rev: 1, Len: 68
+21:832  0:000    3. 2F3F4D50: 'FIDT', '83B9', Rev: 1, Len: 156
+21:832  0:000    4. 2F3F4DF0: 'MCFG', '83B9', Rev: 1, Len: 60
+21:832  0:000    5. 2F3F4E30: 'SSDT', '83B9', Rev: 1, Len: 931
+21:832  0:000    6. 2F3F51D8: 'SSDT', '83B9', Rev: 2, Len: 23959
+21:832  0:000    7. 2F3FAF70: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+21:832  0:000    8. 2F3FAFC8: 'SSDT', '83B9', Rev: 2, Len: 12630
+21:832  0:000    9. 2F3FE120: 'HPET', '83B9', Rev: 1, Len: 56
+21:832  0:000    10. 2F3FE158: 'SSDT', '83B9', Rev: 2, Len: 36
+21:832  0:000    11. 2F3FE180: 'UEFI', '83B9', Rev: 1, Len: 66
+21:832  0:000    12. 2F3FE1C8: 'SSDT', '83B9', Rev: 2, Len: 6062
+21:832  0:000    13. 2F3FF978: 'LPIT', '83B9', Rev: 1, Len: 148
+21:832  0:000    14. 2F3FFA10: 'SSDT', '83B9', Rev: 2, Len: 321
+21:832  0:000    15. 2F3FFB58: 'SSDT', '83B9', Rev: 2, Len: 671
+21:832  0:000    16. 2F3FFDF8: 'SSDT', '83B9', Rev: 2, Len: 4583
+21:832  0:000    17. 2F400FE0: 'SSDT', '83B9', Rev: 2, Len: 573
+21:832  0:000    18. 2F401220: 'DBGP', '83B9', Rev: 1, Len: 52
+21:832  0:000    19. 2F401258: 'DBG2', '83B9', Rev: 0, Len: 84
+21:832  0:000    20. 2F4012B0: 'DMAR', '83B9', Rev: 1, Len: 276
+21:832  0:000    21. 2F4013C8: 'NHLT', '83B9', Rev: 0, Len: 45
+21:832  0:000    22. 2F4013F8: 'SSDT', '83B9', Rev: 1, Len: 102
+21:832  0:000    23. 2F401460: 'TPM2', '83B9', Rev: 3, Len: 52
+21:832  0:000    24. 2F401498: 'ASF!', '83B9', Rev: 32, Len: 160
+21:832  0:000    25. 2F401538: 'WSMT', '83B9', Rev: 1, Len: 40
+21:832  0:000    26. 2F401560: 'BGRT', '83B9', Rev: 1, Len: 56
+21:832  0:000    Tables in Rsdt: 27
+21:832  0:000    0. 2F3BA1C0: 'FACP', 'SLIC-MPC', Rev: 2, Len: 132
+21:832  0:000        (Dsdt: 2F3BA248, Facs: 2F7EAEC0)
+21:832  0:000        2F3BA248: 'DSDT', '83B9', Rev: 2, Len: 239841
+21:832  0:000        2F7EAEC0: 'FACS', Ver: 0, Len: 64
+21:832  0:000    1. 2F3F4C48: 'APIC', '83B9', Rev: 3, Len: 188
+21:832  0:000    2. 2F3F4D08: 'FPDT', '83B9', Rev: 1, Len: 68
+21:832  0:000    3. 2F3F4D50: 'FIDT', '83B9', Rev: 1, Len: 156
+21:832  0:000    4. 2F3F4DF0: 'MCFG', '83B9', Rev: 1, Len: 60
+21:832  0:000    5. 2F3F4E30: 'SSDT', '83B9', Rev: 1, Len: 931
+21:832  0:000    6. 2F3F51D8: 'SSDT', '83B9', Rev: 2, Len: 23959
+21:832  0:000    7. 2F3FAF70: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+21:832  0:000    8. 2F3FAFC8: 'SSDT', '83B9', Rev: 2, Len: 12630
+21:832  0:000    9. 2F3FE120: 'HPET', '83B9', Rev: 1, Len: 56
+21:832  0:000    10. 2F3FE158: 'SSDT', '83B9', Rev: 2, Len: 36
+21:832  0:000    11. 2F3FE180: 'UEFI', '83B9', Rev: 1, Len: 66
+21:832  0:000    12. 2F3FE1C8: 'SSDT', '83B9', Rev: 2, Len: 6062
+21:832  0:000    13. 2F3FF978: 'LPIT', '83B9', Rev: 1, Len: 148
+21:832  0:000    14. 2F3FFA10: 'SSDT', '83B9', Rev: 2, Len: 321
+21:832  0:000    15. 2F3FFB58: 'SSDT', '83B9', Rev: 2, Len: 671
+21:832  0:000    16. 2F3FFDF8: 'SSDT', '83B9', Rev: 2, Len: 4583
+21:832  0:000    17. 2F400FE0: 'SSDT', '83B9', Rev: 2, Len: 573
+21:832  0:000    18. 2F401220: 'DBGP', '83B9', Rev: 1, Len: 52
+21:832  0:000    19. 2F401258: 'DBG2', '83B9', Rev: 0, Len: 84
+21:832  0:000    20. 2F4012B0: 'DMAR', '83B9', Rev: 1, Len: 276
+21:832  0:000    21. 2F4013C8: 'NHLT', '83B9', Rev: 0, Len: 45
+21:832  0:000    22. 2F4013F8: 'SSDT', '83B9', Rev: 1, Len: 102
+21:832  0:000    23. 2F401460: 'TPM2', '83B9', Rev: 3, Len: 52
+21:832  0:000    24. 2F401498: 'ASF!', '83B9', Rev: 32, Len: 160
+21:832  0:000    25. 2F401538: 'WSMT', '83B9', Rev: 1, Len: 40
+21:832  0:000    26. 2F401560: 'BGRT', '83B9', Rev: 1, Len: 56
